@@ -49,3 +49,31 @@
 2021-11-19 02:49:04.695  INFO 12405 --- [nio-3001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
 2021-11-19 02:49:04.866  INFO 12405 --- [nio-3001-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
 2021-11-19 02:49:05.161  INFO 12405 --- [nio-3001-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.5.RELEASE)
+
+2022-02-24 08:04:48.750  INFO 21463 --- [           main] c.c.training.TraningApplication          : Starting TraningApplication v1.0-SNAPSHOT on fabmedical-cb with PID 21463 (/home/adminfabmedical/MCW-Cloud-native-applications-pim/Fabmedical/content-api/target/training-1.0-SNAPSHOT.jar started by adminfabmedical in /home/adminfabmedical/MCW-Cloud-native-applications-pim/Fabmedical/content-api)
+2022-02-24 08:04:48.754  INFO 21463 --- [           main] c.c.training.TraningApplication          : No active profile set, falling back to default profiles: default
+2022-02-24 08:04:50.098  INFO 21463 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3001 (http)
+2022-02-24 08:04:50.112  INFO 21463 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-24 08:04:50.112  INFO 21463 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-02-24 08:04:50.176  INFO 21463 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-24 08:04:50.176  INFO 21463 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1360 ms
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        3.3.1 
+2022-02-24 08:04:50.907  INFO 21463 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-24 08:04:51.091  INFO 21463 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3001 (http) with context path ''
+2022-02-24 08:04:51.093  INFO 21463 --- [           main] c.c.training.TraningApplication          : Started TraningApplication in 2.831 seconds (JVM running for 3.22)
+2022-02-24 08:05:15.712  INFO 21463 --- [nio-3001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-24 08:05:15.712  INFO 21463 --- [nio-3001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-24 08:05:15.721  INFO 21463 --- [nio-3001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2022-02-24 08:05:15.831  INFO 21463 --- [nio-3001-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-24 08:05:16.038  INFO 21463 --- [nio-3001-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
